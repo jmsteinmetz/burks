@@ -1,0 +1,283 @@
+/*
+ * FCKeditor - The text editor for internet
+ * Copyright (C) 2003-2006 Frederico Caldeira Knabben
+ * 
+ * Licensed under the terms of the GNU Lesser General Public License:
+ * 		http://www.opensource.org/licenses/lgpl-license.php
+ * 
+ * For further information visit:
+ * 		http://www.fckeditor.net/
+ * 
+ * "Support Open Source software. What about a donation today?"
+ * 
+ * File Name: fck_editorarea.css
+ * 	This is the default CSS file used by the editor area. It defines the
+ * 	initial font of the editor and background color.
+ * 
+ * 	A user can configure the editor to use another CSS file. Just change
+ * 	the value of the FCKConfig.EditorAreaCSS key in the configuration
+ * 	file.
+ * 
+ * File Authors:
+ * 		Frederico Caldeira Knabben (fredck@fckeditor.net)
+ */
+
+/*
+    The "body" styles should match your editor web site, mainly regarding
+    background color and font family and size.
+*/
+
+body
+{
+	background-color: #ffffff;
+	padding: 5px 5px 5px 5px;
+	margin: 0px;
+}
+
+body, td, div, p, li, ul
+{
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 13px;
+}
+
+a
+{
+	color: #00248F !important;	/* For Firefox... mark as important, otherwise it becomes black */
+}
+
+
+
+
+
+/****************************************************
+*			BASE ELEMENTS
+****************************************************/
+
+a:link { color : #00248F; text-decoration: none; }
+a:visited { color : #00248F; text-decoration: none; }
+a:hover { color: #00D90F; text-decoration: none; }
+
+td {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 13px;
+}
+th {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 13px;
+	font-weight : bold;
+}
+h1, h1 a:link, h1 a:visited {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-weight : normal;
+	font-size : 20px;
+	color : #656565;
+    font-variant: small-caps;
+}
+h2, h2 a:link, h2 a:visited, .h2, .h2 a:link, .h2 a:visited {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	font-size : 15px;
+	color : #223C85;
+    font-variant: small-caps;
+}
+h2 a:hover, .h2 a:hover {
+	text-decoration: underline;
+}
+h3, h3 a:link, h3 a:visited, .h3, .h3 a:link, .h3 a:visited {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	font-size : 15px;
+	color : #223C85;
+}
+h3 a:hover, .h3 a:hover {
+	text-decoration: underline;
+}
+
+h4, h4 a:link, h4 a:visited, .h4, .h4 a:link, .h4 a:visited {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	font-size : 15px;
+	color : #00D90F;
+}
+h4 a:hover, .h4 a:hover {
+	text-decoration: underline;
+}
+
+em {
+	font-style: italic;
+}
+strong {
+	font-weight: bold;
+}
+
+abbr, acronym {
+	text-decoration: underline;
+}
+p {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 13px;
+	line-height : 19px;
+}
+blockquote {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size : 13px;
+	margin-left: 15px;
+	margin-right: 15px;
+	text-align: left;
+	line-height : 19px;
+}
+
+ol, li, ul {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size : 13px;
+	line-height : 19px;
+}
+
+input {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size : 13px;
+	line-height : 16px;
+}
+
+textarea, select {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size : 13px;
+	line-height : 16px;
+}
+
+img.NoBorder_Middle, img.NoBM {
+	border : none;
+	vertical-align: middle;
+}
+
+
+hr {
+	background-color: #00D90F;
+	color: #00D90F;
+}
+
+img.NoBorder, img.NoBorder:link, img.NoBorder:visited { border : none; }
+img.NoBorder:hover { border : none; }
+
+img.NoB, img.NoB:link, img.NoB:visited { border : none; }
+img.NoB:hover { border : none; }
+
+img.Bordered, img.Bordered:link, img.Bordered:visited { border: 1px solid #333333; }
+img.Bordered:hover { border: 1px solid #333333; }
+
+td.minimize, td.Minimize { width : 1%; }
+td.maximize, td.Maximize {	width : 100%; }
+
+.PL, .ParagraphLink, a.ParagraphLink, a.PL, a.ParagraphLink:link, a.PL:link, a.ParagraphLink:visited, a.PL:visited, a.ParagraphLink:hover, a.PL:hover {
+	color: #606060;
+	text-decoration: none;
+}
+a.ParagraphLink:hover, a.PL:hover {
+	color: #606060;
+	text-decoration: underline;
+}
+
+
+
+/****************************************************
+*			BORDER-NAV-COLOR / BLOCKS CLASSES
+****************************************************/
+
+
+.BottomNav, .BN {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 13px;
+	line-height: 20px;
+}
+a.BottomNav, a.BN, a.BottomNav:link, a.BN:link, a.BottomNav:visited, a.BN:visited { text-decoration: underline; }
+a.BottomNav:hover, a.BN:hover { text-decoration: underline; }
+
+.BottomCopy, .BC {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 13px;
+	line-height: 17px;
+}
+a.BottomCopy, a.BC, a.BottomCopy:link, a.BC:link, a.BottomCopy:visited, a.BC:visited { text-decoration: none; }
+a.BottomCopy:hover, a.BC:hover { text-decoration: none; }
+
+
+/****************************************************
+*			FONT CLASSES / BGCOLORS
+****************************************************/
+
+.warning, .Warning, .error, .Error {
+	background: #EDEDED;
+	color : #db0229;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 13px;
+	border: 1px dashed #db0229;
+	margin-bottom : 10px;
+	margin-top : 10px;
+	padding: 5px;
+	font-weight: bold;
+}
+
+.message, .Message, .Msg, .msg {
+	background: #dedede;
+	color : #606060;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 13px;
+	border: 1px dashed #db0229;
+	margin-bottom : 10px;
+	margin-top : 10px;
+	padding: 5px;
+}
+
+.FontRed {
+	color : #db0229;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 13px;
+}
+
+
+/* Grey */
+.BgcolorRowHighlight, .BGRHI     { background: #eee; }
+/* Grey */
+.BgcolorRowHeading, .BGRH        { background: #ccc; }
+
+.BgcolorWhite, .BgColorWhite, .BGWH   { background: #fff; }
+.BgcolorBlack, .BgColorBlack, .BGBL   { background: #333; }
+
+.BgcolorGrey, .BgColorGrey, .BGG, .rightbar          { background: #cccccc; }
+.BgcolorGreyLighter, .BgColorGreyLighter, .BGGL      { background: #dedede; }
+.BgcolorGreyLightest, .BgColorGreyLightest, .BGGLL   { background: #f1f1f1; }
+
+
+.BgcolorBright, .BGGR { background: #00D90F; }
+
+
+
+
+
+/*
+    The following are some sample styles used in the "Styles" toolbar command.
+    You should instead remove them, and include the styles used by the site
+    you are using the editor in.
+*/
+
+.Bold
+{
+	font-weight: bold;
+}
+
+.Title
+{
+	font-weight: bold;
+	font-size: 18px;
+	color: #cc3300;
+}
+
+.Code
+{
+	border: #8b4513 1px solid;
+	padding-right: 5px;
+	padding-left: 5px;
+	color: #000066;
+	font-family: 'Courier New' , Monospace;
+	background-color: #ff9933;
+}
